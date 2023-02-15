@@ -15,7 +15,7 @@ int FindCountOfAddPositions(int[] array)
     {
         if (i % 2 == 1)
         {
-            SumofOddIndex =SumofOddIndex + array [i];
+            SumofOddIndex = SumofOddIndex + array[i];
         }
     }
     return SumofOddIndex;
